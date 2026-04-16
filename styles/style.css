@@ -5,6 +5,7 @@ body {
 address {
   font-style: normal;
 }
+
 .header {
   padding-right: 50px;
   padding-left: 50px;
@@ -14,6 +15,7 @@ address {
   align-items: center;
   color: #000000;
 }
+
 .header_menu {
   font-weight: 400;
   font-size: 18px;
@@ -22,29 +24,28 @@ address {
   height: 22px;
   width: 391px;
   justify-self: start;
+  font-style: normal;
 }
+
 .header_links_list {
   display: flex;
   gap: 35px;
-
   padding: 0;
   margin: 0;
   list-style: circle;
 }
+
 .header_links-list-item_no-bullit {
   list-style: none;
 }
-.header_link {
-}
+
 .header_link_active {
   text-decoration: none;
 }
 
 .address {
   font-weight: 400;
-
   font-size: 18px;
-
   line-height: 24.3px;
   letter-spacing: 0%;
   width: 240px;
@@ -53,6 +54,7 @@ address {
   justify-self: end;
   justify-content: center;
   align-items: center;
+  font-style: normal;
 }
 
 .logo {
@@ -72,6 +74,7 @@ address {
   padding-left: 50px;
   padding-right: 50px;
 }
+
 .overlay {
   position: absolute;
   inset: 0;
@@ -88,34 +91,41 @@ address {
   font-weight: 700;
   font-style: Bold;
   font-size: 100px;
-  line-height: 114.99999999999999%;
+  line-height: 115%;
   letter-spacing: 30%;
   color: white;
   text-transform: uppercase;
   padding-top: 165px;
-  min-width: 1000px;
-  min-height: 385px;
+  width: 1000px;
+  height: 385px;
+ 
 }
+
 .aligned-text {
   display: block;
 }
+
 .aligned-text_left {
   text-align: left;
 }
+
 .aligned-text_center {
   text-align: center;
 }
+
 .aligned-text_right {
   text-align: right;
 }
+
 .cover__description {
-  min-width: 1000px;
+  width: 1000px;
   height: 51px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 106px;
 }
+
 .cover__description-text {
   color: white;
   font-weight: 400;
@@ -126,6 +136,7 @@ address {
   z-index: 2;
   word-spacing: 110%;
 }
+
 .bet-button {
   border: 1px solid white;
   background: transparent;
@@ -164,16 +175,19 @@ address {
   margin: 0;
   border: 1px;
 }
+
 .lots__card-list-item {
   width: 334px;
   flex-shrink: 0;
 }
+
 .card-link {
   display: block;
   height: 100%;
   text-decoration: none;
   color: white;
 }
+
 .card {
   height: 100%;
   position: relative;
@@ -183,24 +197,28 @@ address {
   padding: 48px 40px;
   color: white;
 }
+
 .card_type_film {
   background-image: url(../img/lot-left.png.jpg);
   background-size: cover;
   background-position: cover;
   box-sizing: border-box;
 }
+
 .card_type_book {
   background-image: url(../img/lot-center.png.png);
-  background-size: cover;
-  background-position: cover;
+  background-size: cover;;
+  background-position:left center ;
   box-sizing: border-box;
 }
+
 .card_type_picture {
   background-image: url(../img/lot-right.png.jpg);
   background-size: cover;
   background-position: cover;
   box-sizing: border-box;
 }
+
 .overlay_lots {
   position: absolute;
   inset: 0;
@@ -213,6 +231,7 @@ address {
   position: relative;
   z-index: 1;
 }
+
 .card__title {
   font-weight: 700;
   font-style: Bold;
@@ -224,6 +243,7 @@ address {
   text-decoration-style: solid;
   text-decoration-thickness: 0%;
 }
+
 .card__text {
   font-style: Bold;
   font-weight: 400;
@@ -231,6 +251,7 @@ address {
   line-height: 120%;
   letter-spacing: 0%;
 }
+
 .lots__look-more-link {
   display: inline-block;
   margin-top: 30px;
@@ -239,7 +260,12 @@ address {
   font-size: 20px;
   line-height: 100%;
   letter-spacing: 0%;
+
+
+
+
 }
+
 .about {
   width: 1052px;
   height: 595px;
@@ -250,8 +276,11 @@ address {
   padding-right: 24px;
   margin-bottom: 180px;
 }
+
 .about_colum {
+    padding-left: 47px;
 }
+
 .about_logo {
   width: 240px;
   height: 240px;
@@ -261,23 +290,24 @@ address {
   align-items: center;
   background-color: black;
 }
+
 .about_logo-image {
   width: 148px;
   height: 104px;
 }
+
 .about_title {
   margin-top: 133px;
   font-size: 40px;
   margin-bottom: 100px;
-
   font-weight: 700;
   font-style: Bold;
   font-size: 40px;
-
   line-height: 100%;
   letter-spacing: 0%;
   text-transform: uppercase;
 }
+
 .about_text {
   width: 693px;
   height: 312px;
@@ -288,15 +318,18 @@ address {
   font-weight: 400;
   line-height: 24px;
 }
+
 .about_colum-right {
   width: 693px;
   height: 449px;
 }
+
 .about_colum-left {
   width: 240px;
   height: 240px;
   margin-top: 35px;
 }
+
 footer {
   height: 180px;
   width: 1100px;
@@ -306,15 +339,16 @@ footer {
   justify-content: space-between;
   box-sizing: border-box;
 }
+
 .address-footer {
   width: 264.5735px;
   height: 98px;
-
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
   letter-spacing: 0%;
 }
+
 .footer_menu {
   width: 163.89999389648438px;
   height: 64;
@@ -325,15 +359,19 @@ footer {
   letter-spacing: 0%;
   text-align: center;
 }
+
 .footer_link_active {
   text-decoration: none;
 }
+
 .socials-itams {
   width: 240px;
   height: 48px;
   display: flex;
   justify-content: space-between;
+  border: 1px;
 }
+
 .footer_itams {
   width: 48px;
   height: 48px;
