@@ -1,1 +1,1 @@
-https://github.com/dudnikovvv1-max/ono-tebe-nado-fd
+https://github.com/dudnikovvv1-max/ono-tebe-nado-fd/tree/main
