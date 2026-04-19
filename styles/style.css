@@ -88,17 +88,18 @@ address {
   z-index: 2;
 }
 .cover__title {
+  display: flex;
+  flex-direction: column;
   font-weight: 700;
-  font-style: Bold;
   font-size: 100px;
-  line-height: 130%;
-  letter-spacing: 30%;
-  color: white;
+  line-height: 114.99999999999999%;
+  letter-spacing: 30px;
+   color: white;
   text-transform: uppercase;
   padding-top: 165px;
   width: 1000px;
   height: 385px;
- 
+ gap: 20px;
 }
 
 .aligned-text {
@@ -107,6 +108,7 @@ address {
 
 .aligned-text_left {
   text-align: left;
+  
 }
 
 .aligned-text_center {
@@ -134,7 +136,7 @@ address {
   letter-spacing: 0%;
   text-transform: uppercase;
   z-index: 2;
-  word-spacing: 110%;
+  word-spacing: 80%;
 }
 
 .bet-button {
@@ -301,7 +303,6 @@ address {
 
 .about_title {
   margin-top: 133px;
-  font-size: 40px;
   margin-bottom: 100px;
   font-weight: 700;
   font-style: Bold;
@@ -361,6 +362,7 @@ footer {
   line-height: 24.3px;
   letter-spacing: 0%;
   text-align: center;
+  margin-left: 15px;
 }
 
 .footer_link_active {
