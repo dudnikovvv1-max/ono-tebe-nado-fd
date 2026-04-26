@@ -212,7 +212,7 @@ margin-right: -30px;
 
 .card_type_book {
   background-image: url(../img/kniga.png);
-  background-size: cover;;
+  background-size: cover;
   background-position:left center ;
   box-sizing: border-box;
 }
