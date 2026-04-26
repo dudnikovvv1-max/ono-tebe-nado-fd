@@ -113,7 +113,7 @@ address {
 
 .aligned-text_center {
   text-align: center;
-  margin-left: 30px;
+  margin-left: 35px;
 }
 
 .aligned-text_right {
@@ -366,7 +366,7 @@ footer {
   line-height: 24.3px;
   letter-spacing: 0%;
   text-align: center;
-  margin-left: 22px;
+  margin-left: -30px;
 }
 
 .footer_link_active {
