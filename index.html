@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо</title>
-    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
@@ -27,16 +27,16 @@
         <img src="img/logo.svg.svg" alt="Логотип" />
       </a>
       <address class="address">
-        <ul>
-          <li><a href="#0">+9 999 555 5555</a></li>
-          <li><a href="#0">info@sobaka.ge</a></li>
-          <li>
+        
+          <a href="#0">+9 999 555 5555</a>
+          <a href="#0">info@sobaka.ge</a>
+          
             <p>
               наб. Принсенграхт 263-<br />
               265, Амстердам
             </p>
-          </li>
-        </ul>
+          
+        
       </address>
     </header>
     <main>
@@ -52,7 +52,7 @@
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">Сделать ставку</button>
+          <button class="bet-button" type="submit">Сделать ставку</button>
         </div>
       </section>
 
@@ -63,7 +63,7 @@
           <li class="lots__card-list-item">
             <a href="#0" class="card-link">
               <article class="card card_type_film">
-                <div class="overlay_lots"></div>
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
@@ -79,7 +79,7 @@
           <li class="lots__card-list-item">
             <a href="#0" class="card-link">
               <article class="card card_type_book">
-                <div class="overlay_lots"></div>
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
@@ -98,7 +98,7 @@
           <li class="lots__card-list-item">
             <a href="#0" class="card-link">
               <article class="card card_type_picture">
-                <div class="overlay_lots"></div>
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
@@ -150,16 +150,16 @@
     </main>
 
     <footer class="footer">
-      <address class="address-footer">
-        <ul class="">
-          <li><a href="#0">+9 999 555 5555</a></li>
-          <li><a href="#0">info@sobaka.ge</a></li>
-          <li><p>наб. Принсенграхт 263- 265, Амстердам</p></li>
-        </ul>
+      <address class="address">
+        
+          <a href="#0">+9 999 555 5555</a>
+          <a href="#0">info@sobaka.ge</a>
+          <p>наб. Принсенграхт 263- 265, Амстердам</p>
+        
       </address>
 
-      <nav class="footer_menu">
-        <ul class="footer_links_list">
+      <nav class="footer__menu">
+        <ul class="footer__links-list">
           <li class="footer_links-list-item">
             <a href="#0" class="footer_link footer_link_active">главная</a>
           </li>
@@ -172,22 +172,22 @@
         </ul>
       </nav>
 
-      <ul class="socials-itams">
-        <li class="youtube-itams">
-          <div class="footer_itams">
+      <ul class="socials">
+        <li class="socials__items">
+          <a href="#">
             <img src="img/youtube.svg" alt="иконка-ютуб" />
-          </div>
+          </a>
         </li>
-        <li class="vk-itams">
-          <div class="footer_itams">
+        <li class="socials__items">
+          <a href="#">
             <img src="img/vk.svg" alt="вконтакте" />
-          </div>
+          </a>
         </li>
 
-        <li class="pintr-itams">
-          <div class="footer_itams">
+        <li class="socials__items">
+          <a href="#">
             <img src="img/pinterest.svg" alt="pinterest" />
-          </div>
+          </a>
         </li>
       </ul>
     </footer>
