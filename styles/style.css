@@ -23,7 +23,6 @@ address {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0%;
-  
   width: 391px;
   justify-self: start;
   font-style: normal;
@@ -31,7 +30,7 @@ address {
 
 .header_links_list {
   display: flex;
-  gap: 38px;
+  gap: 34px;
   padding: 0;
   margin: 0;
   list-style: circle;
@@ -117,7 +116,7 @@ address {
 
 .aligned-text_right {
   text-align: right;
-margin-right: -30px;
+  margin-right: -30px;
 }
 
 .cover__description {
@@ -173,7 +172,6 @@ margin-right: -30px;
   margin: 0;
   border: 1px;
   box-sizing: border-box;
-
 }
 
 .lots__card-list-item {
@@ -202,6 +200,7 @@ margin-right: -30px;
   background-position: cover;
   box-sizing: border-box;
 }
+
 .card_type_film {
   background-image: url(../img/film.png);
 }
@@ -213,8 +212,6 @@ margin-right: -30px;
 .card_type_picture {
   background-image: url(../img/picture.png);
 }
-
-
 
 .card__title,
 .card__text {
@@ -274,8 +271,8 @@ margin-right: -30px;
   display: flex;
   justify-content: center;
   align-items: center;
- background-color: black;
-   box-sizing: border-box;
+  background-color: black;
+  box-sizing: border-box;
 }
 
 .about_logo-image {
@@ -335,7 +332,6 @@ footer {
   letter-spacing: 0%;
   text-align: center;
   border: 1px;
-
 }
 
 .footer_link_active {
@@ -359,8 +355,8 @@ footer {
   align-items: center;
   border-radius: 50%;
   border: 1px solid black;
-
 }
+
 a {
   color: #000000;
 }
